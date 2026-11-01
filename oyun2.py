@@ -1,5 +1,5 @@
 import random
-
+print("🎮 Sayı Tahmin Oyununa Hoş Geldin!")
 def sayitut():
     return random.randint(1, 100)
 
