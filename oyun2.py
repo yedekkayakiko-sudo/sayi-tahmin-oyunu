@@ -28,3 +28,8 @@ while tahmin_edilen != sonuc:
 print("Tebrikler, bildin!")
 print("Tahminlerin:", tahminler)
 print(len(tahminler), "tahminde bildin.")
+
+if len(tahminler) <= 5:
+    print("Usta!")
+else:
+    print("Biraz daha çalışmalısın!")
